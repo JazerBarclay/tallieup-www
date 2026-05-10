@@ -230,7 +230,7 @@ details > div { padding: 0 20px 16px; font-size: 0.88rem; color: var(--text-mute
 .hero h1 { margin-bottom: 20px; }
 .hero h1 em { font-style: normal; color: var(--primary); }
 .hero p  { font-size: 1.05rem; margin-bottom: 32px; max-width: 460px; }
-.hero-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 16px; }
+.hero-actions { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; }
 .hero-note { font-size: 0.8rem; color: var(--text-faint); }
 
 .hero-img-wrap { position: relative; display: flex; justify-content: center; }
@@ -302,11 +302,10 @@ details > div { padding: 0 20px 16px; font-size: 0.88rem; color: var(--text-mute
 .problem-img { position: relative; display: flex; justify-content: center; }
 .problem-img-blob {
   position: absolute; width: 80%; height: 80%;
-  background: var(--sky-lt); border-radius: 50%;
   top: 50%; left: 50%;
   transform: translate(-50%,-50%); z-index: 0;
 }
-.problem-img img { position: relative; z-index: 1; width: 100%; max-width: 360px; border-radius: 20px; }
+.problem-img img { position: relative; z-index: 1; width: 100%; max-width: 440px; border-radius: 20px; }
 .problem-copy h2 { margin-bottom: 16px; }
 .problem-copy > p { margin-bottom: 24px; font-size: 1rem; }
 .pain-cards { display: flex; flex-direction: column; gap: 12px; }
