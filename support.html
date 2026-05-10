@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Tallie Up</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/icon.png" alt="Tallie Up" />
+      <span>Tallie Up</span>
+    </a>
+    <a href="index.html" class="nav-back">&larr; Back to home</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+  <span class="page-label">Support</span>
+  <h1>Help &amp; Support</h1>
+  <p>Find answers to common questions below, or get in touch — we're happy to help.</p>
+
+  <!-- Contact -->
+  <div class="contact-card">
+    <div>
+      <h2>Get in touch</h2>
+      <p>Can't find what you need? Drop us an email and we'll get back to you as soon as possible.</p>
+    </div>
+    <a href="mailto:hello@tallieup.app" class="contact-btn">
+      ✉&nbsp; Email us
+    </a>
+  </div>
+
+  <!-- FAQ -->
+  <p class="faq-title">Common questions</p>
+
+  <details>
+    <summary>How do I delete my account?</summary>
+    <div>You can delete your account from within the app. Go to <strong>Settings</strong>, scroll to the bottom, and tap <strong>Delete Account</strong>. This will permanently remove your account and personal data. Circle history that involves other members may be retained for those members' records.</div>
+  </details>
+
+  <details>
+    <summary>I can't log in to my account</summary>
+    <div>First, check that you're using the correct email address. If you've forgotten your password, use the "Forgot password" option on the login screen — we'll send you a reset link. If you still can't access your account, email us at <a href="mailto:hello@tallieup.app">hello@tallieup.app</a>.</div>
+  </details>
+
+  <details>
+    <summary>How do I create a circle?</summary>
+    <div>Tap the <strong>+</strong> button on the Circles tab. Give your circle a name, choose a currency or custom unit, add members, and tap <strong>Create</strong>. You can add more members later from the circle's settings.</div>
+  </details>
+
+  <details>
+    <summary>Can I edit an expense after logging it?</summary>
+    <div>Tallie uses an immutable ledger — expenses are permanent once recorded. This keeps the history honest and trustworthy for all group members. If you made a mistake, you can add a correction entry (e.g. a negative expense or adjustment) to balance it out.</div>
+  </details>
+
+  <details>
+    <summary>How do settlements work?</summary>
+    <div>When someone pays another person back, record it as a <strong>Settlement</strong> inside the circle. Select who paid and who they paid, enter the amount, and confirm. Balances update instantly for everyone in the circle.</div>
+  </details>
+
+  <details>
+    <summary>What does closing a circle do?</summary>
+    <div>Closing a circle prevents any new expenses or membership changes. It's useful when a trip or event is finished and you want to lock the records. The full history is preserved and remains readable. You can archive a closed circle to move it out of your active list.</div>
+  </details>
+
+  <details>
+    <summary>Can I use Tallie with a custom currency (like "beers")?</summary>
+    <div>Yes! When creating a circle, choose <strong>Custom unit</strong> and name it whatever you like — "beers", "bottles", "tokens", anything. The unit is fixed for the lifetime of the circle so the history always makes sense.</div>
+  </details>
+
+  <details>
+    <summary>I found a bug — how do I report it?</summary>
+    <div>Please email <a href="mailto:hello@tallieup.app">hello@tallieup.app</a> with a description of what happened, what you expected, and your device/iOS version. Screenshots or screen recordings are really helpful.</div>
+  </details>
+
+  <!-- Tips -->
+  <p class="tips-title">Tips &amp; tricks</p>
+
+  <div class="tip-card">
+    <h3>📌 Pin your most-used circles</h3>
+    <p>Long-press a circle or use the pin icon to keep your favourites at the top of the Home screen for quick access.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>🔄 Pull to refresh</h3>
+    <p>Pull down on any list screen to refresh the data and see the latest changes from your group.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>👥 Add members before adding expenses</h3>
+    <p>Make sure everyone in the group is added to the circle before logging the first expense — it makes splitting much smoother.</p>
+  </div>
+
+  <div class="tip-card">
+    <h3>🌙 Dark mode support</h3>
+    <p>Tallie respects your system appearance setting. You can also override it in <strong>Settings → Appearance</strong>.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; <span id="yr"></span> Tallie Up. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

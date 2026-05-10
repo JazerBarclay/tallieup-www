@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tallie Up is the group expense tracker built for real life. Create circles for trips, flatmates, nights out and more — then let Tallie do the maths." />
+  <meta property="og:title" content="Tallie Up — Shared Expenses, No More Headaches" />
+  <meta property="og:description" content="Track shared costs for trips, flatmates, nights out and more. Fair splits, clear balances, no stress." />
+  <meta property="og:image" content="assets/icon.png" />
+  <title>Tallie Up — Shared Expenses, Made Simple</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════ NAV ══════════════════════════════════════════ -->
+<nav>
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">
+      <img src="assets/icon.png" alt="Tallie Up" />
+      <span>Tallie Up</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#how-it-works">How it works</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#download" class="btn btn-primary">Download</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══════════════════════════════════════════ HERO ══════════════════════════════════════════ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-inner">
+      <!-- Copy -->
+      <div>
+        <p class="hero-eyebrow">Group expense tracking</p>
+        <h1>Shared expenses,<br><em>no more headaches.</em></h1>
+        <p>Tallie is the expense tracker built for real life. Create circles for your trips, flat, nights out and more&nbsp;— then let Tallie do the maths.</p>
+        <div class="hero-actions">
+          <a href="#download" class="badge-dark">
+            <!-- Apple logo -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            Download on the App Store
+          </a>
+          <a href="#how-it-works" class="btn btn-outline">See how it works</a>
+        </div>
+        <p class="hero-note">Free to download &middot; iOS</p>
+      </div>
+
+      <!-- Illustration -->
+      <div class="hero-img-wrap">
+        <div class="hero-img-blob"></div>
+        <img src="assets/login_splash.png" alt="Friends splitting a meal and drinks" />
+        <!-- Floating context badges -->
+        <div class="float f1">
+          <div class="float-dot" style="background:#5F7F73;"></div>
+          £12.50 split 3 ways
+        </div>
+        <div class="float f2">
+          <div class="float-dot" style="background:#567C8D;"></div>
+          Alex owes you £4.17
+        </div>
+        <div class="float f3" style="color:#2F4156;">
+          🍕 Pizza Night settled ✓
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ STRIP ══════════════════════════════════════════ -->
+<div class="strip">
+  <div class="strip-inner">
+    <span class="strip-item">Trips &amp; holidays</span>
+    <span class="strip-item">Shared households</span>
+    <span class="strip-item">Nights out</span>
+    <span class="strip-item">Group gifts</span>
+    <span class="strip-item">House projects</span>
+    <span class="strip-item">Events</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════ PROBLEM ══════════════════════════════════════════ -->
+<section class="problem" id="problem">
+  <div class="container">
+    <div class="problem-inner">
+      <!-- Illustration -->
+      <div class="problem-img">
+        <div class="problem-img-blob"></div>
+        <img src="assets/signup_splash.png" alt="Friends celebrating together" />
+      </div>
+      <!-- Copy -->
+      <div class="problem-copy">
+        <span class="label">The problem</span>
+        <h2>Who owes who?<br>Nobody knows.</h2>
+        <p>Splitting costs in a group is awkward. Someone always pays upfront, someone always forgets, and nobody can quite remember what was fair.</p>
+        <div class="pain-cards">
+          <div class="pain-card">
+            <strong>The group chat method</strong>
+            <span>Endless "who got the taxi?" messages that go unanswered for days.</span>
+          </div>
+          <div class="pain-card">
+            <strong>The spreadsheet method</strong>
+            <span>One person updates it, nobody else can read it, and it breaks on holiday.</span>
+          </div>
+          <div class="pain-card">
+            <strong>The "I'll get the next one" method</strong>
+            <span>Works great until nobody remembers who owed what from six rounds ago.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ HOW IT WORKS ══════════════════════════════════════════ -->
+<section id="how-it-works">
+  <div class="container">
+    <div class="hiw-header">
+      <span class="label">How it works</span>
+      <h2>Three steps to zero confusion</h2>
+      <p>Tallie is built to be picked up and understood in under a minute.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-icon">⭕</div>
+        <h3>Create a circle</h3>
+        <p>Start a group for your trip, flat, dinner party or night out. Give it a name, pick a currency (or make one up), and invite your people.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-icon">➕</div>
+        <h3>Log expenses as you go</h3>
+        <p>Add what you paid and who was involved. Tallie works out the splits instantly — even splits or custom amounts per person.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-icon">✅</div>
+        <h3>Settle up &amp; move on</h3>
+        <p>Everyone can see exactly what they owe and who owes them. When someone pays up, record it as a settlement and clear the balance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ FEATURES ══════════════════════════════════════════ -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="features-header">
+      <span class="label">Features</span>
+      <h2>Everything your group needs</h2>
+      <p>Built around clarity, honesty, and getting paid back without the awkwardness.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">⭕</div>
+        <h3>Circles</h3>
+        <p>Separate financial contexts for every group. Your holiday circle stays separate from your household — balances never bleed between groups.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💷</div>
+        <h3>Any currency or unit</h3>
+        <p>GBP, USD, EUR — or go custom. Track rounds in "beers", festival tokens, or any unit you like. The unit is locked per circle so history always makes sense.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">⚖️</div>
+        <h3>Fair &amp; custom splits</h3>
+        <p>Even splits calculated in a tap, or specify exact amounts per person. No rounding arguments.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤝</div>
+        <h3>Settle up</h3>
+        <p>Record settlements directly in the app. Balances update instantly so everyone's on the same page.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔒</div>
+        <h3>Immutable history</h3>
+        <p>Expense records are permanent. Corrections are made as new entries, keeping the ledger honest and auditable — no silent edits.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📱</div>
+        <h3>Mobile-first</h3>
+        <p>Designed for the moment — at the bar, in the restaurant, splitting the taxi fare. Tallie is fast, clear, and built for real life.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ PRICING ══════════════════════════════════════════ -->
+<section id="pricing">
+  <div class="container">
+    <div class="pricing-header">
+      <span class="label">Pricing</span>
+      <h2>Start free, upgrade when you need</h2>
+      <p>Tallie's core features are free. Upgrade to Pro when your circles grow.</p>
+    </div>
+    <div class="pricing-grid">
+      <!-- Free -->
+      <div class="pricing-card">
+        <p class="pricing-tier">Free</p>
+        <p class="pricing-price">£0</p>
+        <p class="pricing-period">Forever free</p>
+        <ul class="pricing-list">
+          <li><span class="check">✓</span> Up to 5 circles</li>
+          <li><span class="check">✓</span> Up to 6 members per circle</li>
+          <li><span class="check">✓</span> 1 pinned circle on Home</li>
+          <li><span class="check">✓</span> All core expense &amp; settle features</li>
+          <li><span class="check">✓</span> Any currency or custom unit</li>
+          <li><span class="check">✓</span> Full ledger history</li>
+        </ul>
+        <a href="#download" class="btn btn-outline pricing-btn">Get started free</a>
+      </div>
+      <!-- Pro -->
+      <div class="pricing-card pro">
+        <div class="pro-badge">Most popular</div>
+        <p class="pricing-tier">Pro</p>
+        <p class="pricing-price" style="color:var(--primary);">Coming soon</p>
+        <p class="pricing-period">Billed monthly or annually</p>
+        <ul class="pricing-list">
+          <li><span class="check">✓</span> Unlimited circles</li>
+          <li><span class="check">✓</span> Up to 25 members per circle</li>
+          <li><span class="check">✓</span> Unlimited pinned circles</li>
+          <li><span class="check">✓</span> 20 recently viewed circles</li>
+          <li><span class="check">✓</span> Everything in Free</li>
+          <li><span class="check">✓</span> Priority support</li>
+        </ul>
+        <a href="#download" class="btn btn-primary pricing-btn">Join the waitlist</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ FAQ ══════════════════════════════════════════ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-header">
+      <span class="label">FAQ</span>
+      <h2>Questions? We have answers.</h2>
+    </div>
+    <div class="faq-list">
+      <details>
+        <summary>Do I need an account to use Tallie?</summary>
+        <div>Yes — Tallie uses accounts to keep your data safe, backed up, and synced. Sign up takes under a minute with just your email and a password.</div>
+      </details>
+      <details>
+        <summary>How is Tallie different from splitting apps like Splitwise?</summary>
+        <div>Tallie focuses on clean, isolated circles with an immutable ledger — every entry is permanent, corrections are made as new entries, and there are no silent edits. It also supports custom units (think: beers, tokens, holiday points) beyond standard currencies.</div>
+      </details>
+      <details>
+        <summary>Can I use custom currencies or non-money units?</summary>
+        <div>Yes! Each circle can use any ISO currency (GBP, USD, EUR…) or a completely custom unit — "beers", "festival tokens", "bottles", whatever fits your group. The unit is locked when the circle is created to preserve the meaning of historical records.</div>
+      </details>
+      <details>
+        <summary>What happens when a circle is closed or archived?</summary>
+        <div>Closing a circle prevents any new expenses or membership changes. Archiving makes it fully read-only. Either way, the full history is preserved — you can always look back at what happened.</div>
+      </details>
+      <details>
+        <summary>Is my data safe?</summary>
+        <div>Tallie is powered by Supabase with PostgreSQL and Row Level Security — meaning your data is isolated, encrypted in transit, and only accessible by you. We do not sell your data.</div>
+      </details>
+      <details>
+        <summary>Is there an Android version?</summary>
+        <div>Tallie is currently iOS-only. Android support is on the roadmap — sign up or download the app to stay updated.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ DOWNLOAD ══════════════════════════════════════════ -->
+<section class="download" id="download">
+  <div class="container">
+    <h2>Ready to stop doing the maths?</h2>
+    <p>Download Tallie for free and settle up properly.</p>
+    <div class="download-actions">
+      <a href="#" class="badge-light">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+        Download on the App Store
+      </a>
+    </div>
+    <p class="download-note">Free to download &middot; iOS &middot; No credit card required</p>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════ FOOTER ══════════════════════════════════════════ -->
+<footer class="footer-full">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="Tallie Up" />
+        <div class="footer-brand-name">Tallie Up</div>
+        <p>Shared expenses, no more headaches. Built for real life.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="support.html">Help &amp; Support</a></li>
+          <li><a href="mailto:hello@tallieup.app">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="yr"></span> Tallie Up. All rights reserved.</p>
+      <div style="display:flex;gap:20px;flex-wrap:wrap;">
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

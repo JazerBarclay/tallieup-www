@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Tallie Up</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/icon.png" alt="Tallie Up" />
+      <span>Tallie Up</span>
+    </a>
+    <a href="index.html" class="nav-back">&larr; Back to home</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+  <span class="page-label">Legal</span>
+  <h1>Privacy Policy</h1>
+  <p class="page-meta">Last updated: <span id="date"></span></p>
+
+  <div class="placeholder-banner">
+    <strong>🚧 Document in progress</strong>
+    This Privacy Policy is a placeholder. A full policy compliant with GDPR and App Store requirements will be published before the public launch of Tallie Up. Questions? <a href="mailto:hello@tallieup.app">Contact us</a>.
+  </div>
+
+  <div class="legal-section">
+    <h2>1. Who we are</h2>
+    <p>Tallie Up ("we", "us", "our") is a mobile application for tracking shared expenses. This Privacy Policy explains how we collect, use, and protect your personal data when you use our App.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>2. Data we collect</h2>
+    <p>We collect only what is necessary to provide the service:</p>
+    <ul>
+      <li><strong>Account information:</strong> email address and display name provided on sign-up.</li>
+      <li><strong>Usage data:</strong> circles you create, expenses you log, and members you invite.</li>
+      <li><strong>Preferences:</strong> theme, currency, and other in-app settings stored in your profile.</li>
+    </ul>
+    <p>We do not collect payment card information. We do not track your location.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>3. How we use your data</h2>
+    <ul>
+      <li>To provide and maintain the Tallie Up service.</li>
+      <li>To authenticate your account and keep it secure.</li>
+      <li>To allow group members to see shared expense data within circles you participate in.</li>
+      <li>To improve the App based on anonymous usage patterns.</li>
+    </ul>
+    <p>We do not sell your data to third parties.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>4. Data storage &amp; security</h2>
+    <p>Your data is stored securely using Supabase (PostgreSQL) with Row Level Security enabled. All data is encrypted in transit using TLS. We apply industry-standard security practices and review them regularly.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>5. Data sharing</h2>
+    <p>We share data only in the following circumstances:</p>
+    <ul>
+      <li><strong>Within circles:</strong> members of a circle can see the expenses and balances in that circle.</li>
+      <li><strong>Service providers:</strong> we use Supabase as our infrastructure provider, subject to their own privacy commitments.</li>
+      <li><strong>Legal requirements:</strong> we may disclose data if required by law.</li>
+    </ul>
+  </div>
+
+  <div class="legal-section">
+    <h2>6. Your rights</h2>
+    <p>Depending on your location you may have rights including: access to your data, correction of inaccurate data, deletion of your account and data, and portability of your data. To exercise any of these rights, contact us at <a href="mailto:hello@tallieup.app">hello@tallieup.app</a>.</p>
+    <p>You can delete your account directly within the Tallie Up app, which will remove your personal data from our systems.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>7. Cookies</h2>
+    <p>The Tallie Up mobile app does not use cookies. Our website may use minimal, functional cookies to operate correctly. We do not use advertising or tracking cookies.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this Privacy Policy as the service evolves. We will notify you of material changes via the App or by email. Continued use of the App after changes constitutes acceptance.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>9. Contact</h2>
+    <p>For any privacy-related questions or requests, please contact us at <a href="mailto:hello@tallieup.app">hello@tallieup.app</a>.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; <span id="yr"></span> Tallie Up. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  document.getElementById('date').textContent = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Tallie Up</title>
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/icon.png" alt="Tallie Up" />
+      <span>Tallie Up</span>
+    </a>
+    <a href="index.html" class="nav-back">&larr; Back to home</a>
+  </div>
+</nav>
+
+<div class="page-wrap">
+  <span class="page-label">Legal</span>
+  <h1>Terms of Service</h1>
+  <p class="page-meta">Last updated: <span id="date"></span></p>
+
+  <div class="placeholder-banner">
+    <strong>🚧 Document in progress</strong>
+    This Terms of Service is a placeholder. Full legal terms will be published before the public launch of Tallie Up. If you have questions in the meantime, please <a href="mailto:hello@tallieup.app">contact us</a>.
+  </div>
+
+  <div class="legal-section">
+    <h2>1. Acceptance of Terms</h2>
+    <p>By downloading or using Tallie Up ("the App"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the App.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>2. Use of the Service</h2>
+    <p>Tallie Up provides tools to help groups track shared expenses. You agree to use the App only for lawful purposes and in accordance with these Terms. You are responsible for all activity that occurs under your account.</p>
+    <ul>
+      <li>You must be at least 13 years old to use Tallie Up.</li>
+      <li>You are responsible for keeping your account credentials secure.</li>
+      <li>You must not use the App to record fraudulent, misleading, or illegal transactions.</li>
+    </ul>
+  </div>
+
+  <div class="legal-section">
+    <h2>3. Account Registration</h2>
+    <p>To use Tallie Up you must create an account. You agree to provide accurate information and to keep it up to date. You may delete your account at any time from within the App.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>4. Intellectual Property</h2>
+    <p>All content, trademarks, and software within Tallie Up are the property of Tallie Up and its creators. You may not copy, modify, distribute, or reverse-engineer any part of the App without explicit written consent.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>5. Disclaimers</h2>
+    <p>Tallie Up is not a banking application and does not handle real money transfers. We do not guarantee the accuracy of balance calculations beyond what is recorded by users. The App is provided "as is" without warranty of any kind.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>6. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, Tallie Up and its creators shall not be liable for any indirect, incidental, or consequential damages arising out of your use of the App.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>7. Changes to Terms</h2>
+    <p>We may update these Terms from time to time. Continued use of the App after changes constitutes acceptance of the updated Terms. We will notify users of significant changes where possible.</p>
+  </div>
+
+  <div class="legal-section">
+    <h2>8. Contact</h2>
+    <p>If you have any questions about these Terms, please contact us at <a href="mailto:hello@tallieup.app">hello@tallieup.app</a>.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; <span id="yr"></span> Tallie Up. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="support.html">Support</a>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  document.getElementById('date').textContent = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+</script>
+</body>
+</html>
